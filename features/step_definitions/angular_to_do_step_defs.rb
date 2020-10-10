@@ -24,5 +24,11 @@ end
 Then('I receive a response with the hourly weather for that region') do
   periods_json = periods_json(@response)
   expect(periods_json.size).to be > 1
-  validate_period_format(periods_json.first)
+  periods_json.each do |period|
+    validate_period_format(period)
+  end
+end
+
+Then('I can print out the first period to the console') do
+  print(periods_json(@response).first)
 end
