@@ -4,3 +4,4 @@ Feature: Weather API
     Given I have a valid latitude and longitude
     When I make a GET request to the hourly weather service
     Then I receive a response with the hourly weather for that region
+    And I can print out the first period to the console
