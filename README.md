@@ -1,10 +1,12 @@
 # Weather Api Hourly Exercise
 
-This is the API automation coding exercise for SignalPath, to demonstrate my ability to do the following.
+This is a API automation coding example to demonstrate my ability to do the following.
 
 * Start up a basic API automation framework
 * Utilize said framework to write working automation
 * Show coding style and structure
+
+This makes use of the API's found on weather.gov
 
 ## Prerequisites
 * Install [rbenv](https://github.com/rbenv/rbenv) with [ruby-build](https://github.com/rbenv/ruby-build)
